@@ -13,7 +13,9 @@ public class Index{
     System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
     System.out.println("6. Reverse");
-    System.out.println("7. Exit");
+    System.out.println("7. Array");
+    System.out.println("8. Second Array");
+    System.out.println("9. Exiting ...");
 
     System.out.println();
 
@@ -51,7 +53,17 @@ public class Index{
 		System.out.println();
 		Reverse.main(null);
         break;
-  	case 7:
+    case 7:
+		System.out.println("Array Lab");
+		System.out.println();
+		FirstArray.main(null);
+        break;
+    case 8:
+		System.out.println("Second Array Lab");
+		System.out.println();
+		SecondArray.main(null);
+        break;
+  	case 9:
         System.out.println("Exiting....");
         break;
   	default:
