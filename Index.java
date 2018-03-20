@@ -5,17 +5,20 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-6):");
+    System.out.println("Select an option (1-12):");
     System.out.println();
-    System.out.println("1. Break");
-    System.out.println("2. Switch");
-    System.out.println("3. Methods");
-    System.out.println("4. Shadowing");
-    System.out.println("5. Overloading");
-    System.out.println("6. Reverse");
-    System.out.println("7. Array");
-    System.out.println("8. Second Array");
-    System.out.println("9. Exiting ...");
+    System.out.println("1.\tBreak");
+    System.out.println("2.\tSwitch");
+    System.out.println("3.\tMethods");
+    System.out.println("4.\tShadowing");
+    System.out.println("5.\tOverloading");
+    System.out.println("6.\tReverse");
+    System.out.println("7.\tArray");
+    System.out.println("8.\tSecond Array");
+    System.out.println("9.\tTryCatch");
+    System.out.println("10.\tEnhanced For");
+    System.out.println("11.\tSearch Student");
+    System.out.println("12.\tExiting....");
 
     System.out.println();
 
@@ -64,7 +67,22 @@ public class Index{
 		SecondArray.main(null);
         break;
   	case 9:
-        System.out.println("Exiting....");
+        System.out.println("Try Catch");
+        System.out.println();
+		TryCatch.main(null);
+        break;
+   	case 10:
+	 	System.out.println("Enhanced For lab");
+	 	System.out.println();
+		EnhancedFor.main(null);
+        break;
+  	case 11:
+		System.out.println("Search Student");
+		System.out.println();
+		SearchStudent.main(null);
+        break;
+  	case 12:
+		System.out.println("Exiting....");
         break;
   	default:
         System.out.println("Invalid choice");
