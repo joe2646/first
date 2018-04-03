@@ -2,10 +2,11 @@ import java.util.Scanner;
 public class Excercise1{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
-	 double ans;
+	 double a;
 	 int choice;
 	 int ne;
 	 double fn = 0.55555555555;
+	 double fn2 = 1.8;
 
     System.out.println("1: Fahrenheit to Celsius");
     System.out.println("2: Celsius to Fahrenheit");
@@ -21,15 +22,15 @@ public class Excercise1{
 			System.out.println("Enter Temperature:");
 			ne = input.nextInt();
 
-			ans = (ne - 32) * fn;
-			System.out.println(ne+" Fahrenheit is "+ans+" Celsius");
+			a = (ne - 32) * fn;
+			System.out.println(ne+" Fahrenheit is "+a+" Celsius");
 			break;
 		case 2:
 		  	System.out.println("Enter Temperature:");
 			ne = input.nextInt();
 
-			ans = (ne + 32) * fn ;
-			System.out.println(ne+" Celsius is "+ans+" Fahrenheit");
+			a = (ne  * fn2) + 32 ;
+			System.out.println(ne+" Celsius is "+a+" Fahrenheit");
 			break;
 		case 3:
 			System.out.println("Exiting");
