@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Excercise1{
+public class Convert{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 	 double a;
