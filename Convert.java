@@ -2,18 +2,48 @@ import java.util.Scanner;
 public class Convert{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
-	 double a;
+
+			System.out.println("1: Fahrenheit to Celsius");
+			System.out.println("2: Celsius to Fahrenheit");
+			System.out.println("3: Exit");
+
+			System.out.println("Choice:");
+  			int x = input.nextInt();
+  			System.out.println("Enter Temperature:");
+			int ne = input.nextInt();
+
+
+			if(x == 1){
+				System.out.println(ne+"Fahrenheit is "+Celsius(x)+"celsius");
+			}
+
+			}
+
+		public static int Celsius(int x){
+			int cel;
+			int ne;
+
+			while (x == 1){
+			5.0/9.0 * (ne - 32)= cel;//}
+			return cel;
+				while (x == 2){
+					9.0/5.0 * (ne + 32)= cel;
+					}
+
+			}
+	}
+
+}
+
+
+
+	 /*double a;
 	 int choice;
 	 int ne;
 	 double fn = 0.55555555555;
 	 double fn2 = 1.8;
 
-    System.out.println("1: Fahrenheit to Celsius");
-    System.out.println("2: Celsius to Fahrenheit");
-    System.out.println("3: Exit");
 
-  	System.out.println("Choice:");
-  	choice = input.nextInt();
 
 
 
@@ -42,4 +72,4 @@ public class Convert{
 
 
     }
-   }
+   }*/
