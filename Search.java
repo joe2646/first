@@ -4,7 +4,7 @@ public class Search
 	public static void main (String [] args)
 		{
 		    Scanner input = new Scanner (System.in);
-		    String[][] dataSet = {
+		    String[][] dataSet = {//array values
 		      { "Tiger Nixon", "System Architect", "Edinburgh", "5421", "2011/04/25", "$320,800" },
 		      { "Garrett Winters", "Accountant", "Tokyo", "8422", "2011/07/25", "$170,750" },
 		      { "Ashton Cox", "Junior Technical Author", "San Francisco", "1562", "2009/01/12", "$86,000" },
@@ -44,7 +44,7 @@ public class Search
 		    };
 
 	System.out.println("Enter a search value:");
-	String search = input.nextLine();
+	String search = input.nextLine();//assigns the search value as a string
 	int match = 0;
 	System.out.println("");
 
@@ -55,7 +55,7 @@ public class Search
 				if(match == 1){
 					System.out.println("");
 						}
-					System.out.println("Name: "+dataSet[x][0]);
+					System.out.println("Name: "+dataSet[x][0]);//retrieving the first entry on the data line which starts at zero
 					System.out.println("Job: "+dataSet[x][1]);
 					System.out.println("City: "+dataSet[x][2]);
 					System.out.println("Zip Code: "+dataSet[x][3]);
@@ -65,9 +65,9 @@ public class Search
 						}
 					}
 				}
-			System.out.println("");
-	System.out.println("Records match "+match);
-
+				System.out.println("");
+				System.out.println("Records match "+match);//displays match count
+				Index.main(null);
 
 
 		}

@@ -86,12 +86,12 @@ public class Index{
    	case 12:
 		System.out.println("Convert");
 		System.out.println();
-		SearchStudent.main(null);
+		Convert.main(null);
         break;
   	case 13:
 		System.out.println("Search");
 		System.out.println();
-		SearchStudent.main(null);
+		Search.main(null);
         break;
   	case 14:
 		System.out.println("Exiting....");
